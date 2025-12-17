@@ -25,7 +25,7 @@ if __name__ == "__main__":
     ]
     caminho_csv = next((p for p in caminhos_possiveis if os.path.exists(p)), None)
     
-    #Se deseja ver o bot trabalhando setar headless=False
+    #Se deseja ver o bot trabalhando setar headless=False se não headless=True
     bot = ImportaCompras(headless=False)
     
     try:
@@ -50,4 +50,5 @@ if __name__ == "__main__":
 
         # Garante que o relatório seja salvo e o navegador fechado, mesmo em caso de erro
         gerar_relatorio(bot)
+
         bot.fechar()
