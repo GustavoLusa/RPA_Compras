@@ -4,7 +4,7 @@ Este projeto é uma automação (RPA) desenvolvida em **Python** utilizando **Se
 ## 🚀Funcionalidades
 **Login**: Autenticação no portal.
 **Importação de Dados**: Lista os produtos com base em um arquivo `.csv`.
-**Busca automática**: Localização da planilha (Pasta Local ou Downloads).
+**Busca automática**: Localização da planilha (Pasta Local(Deve ser criada e nomeada de planilhasCompras) ou Downloads).
 **Captura de Evidências**: Captura de screenshots para comprovação.
 **Relatórios**: Geração de logs em CSV detalhando o sucesso ou erro de cada produto.
 
@@ -34,4 +34,5 @@ python main.py
 planilhasCompras/: Pasta usada para colocar o arquivo produtos_compra.csv.
 Comprovantes/: Armazena automaticamente os prints de sucesso/erro.
 relatorios/: Armazena os arquivos CSV gerados após cada execução.
+
 
