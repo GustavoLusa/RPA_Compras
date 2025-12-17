@@ -31,6 +31,7 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
 python main.py
 
 ## 📂Organização de Arquivos 
-planilhasCompras/: Pasta recomendada para colocar o arquivo produtos_compra.csv.
+planilhasCompras/: Pasta usada para colocar o arquivo produtos_compra.csv.
 Comprovantes/: Armazena automaticamente os prints de sucesso/erro.
+
 relatorios/: Armazena os arquivos CSV gerados após cada execução.
