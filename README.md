@@ -32,9 +32,10 @@ python main.py
 ```
 
 ## 📂Organização de Arquivos 
-**planilhasCompras/: Pasta usada para colocar o arquivo produtos_compra.csv.**
-**Comprovantes/: Armazena automaticamente os prints de sucesso/erro.**
-**relatorios/: Armazena os arquivos CSV gerados após cada execução.**
+**planilhasCompras/:** Pasta usada para colocar o arquivo produtos_compra.csv.
+**Comprovantes/:** Armazena automaticamente os prints de sucesso/erro.
+**relatorios/:** Armazena os arquivos CSV gerados após cada execução.
+
 
 
 
